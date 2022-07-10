@@ -3,16 +3,24 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,minimum-scale=1.0,user-scalable=no, viewport-fit=cover" />
-        <meta http-equiv="Expires" content="0">
-        <meta http-equiv= "Pragma" content="no-cache" > 
-        <meta http-equiv="Cache-control" content="no-cache" >
-        <meta http-equiv="Cache" content="no-cache" >
         <title>张哥是个程序员的主页</title>
         <link rel="icon" href="https://img.littleyan.tk/img/%E5%97%A8%E5%AE%B3%E5%97%A8.png" type="image/x- icon"/>
         <link rel="stylesheet" type="text/css" href="css/all.css"/>
         <script src="https://kit.fontawesome.com/f335260c53.js" crossorigin="anonymous"></script>
     </head>
     <body>
+        <script type="text/javascript">
+            var system = {};
+            var p = navigator.platform;
+            system.win=p.indexOf("Win") == 0;
+            system.mac=p.indexOf("Mac") == 0;
+            system.x11=(p=="X11") || (p.indexOf("Linux")==0);
+            if(system.win||system.mac||system.x11){
+                window.location.href="#";
+            }else{
+                window.location.href="www.4399.com";
+            }
+        </script>
             <div id="Central">
                 <div id="img"><a href="#"><img src="https://pic4.zhimg.com/v2-c8a9b7d8b19fa3b54dfbd4bbfa4abd8b_r.jpg?source=1940ef5c" width="100px" height="100px"></a></div>
                 <h1 style="color: #fff;">张哥是个程序员</h1>
